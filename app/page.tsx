@@ -1,10 +1,12 @@
 "use client";
 
 import { Plus, LogIn } from "lucide-react";
+import { WelcomeModal } from "./components/WelcomeModal";
 
 export default function Home() {
   return (
     <div className="container">
+      <WelcomeModal />
       <main className="split-container">
         <section className="split-section create-section fade-in">
           <Plus className="icon" />
