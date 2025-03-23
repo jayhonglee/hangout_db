@@ -32,14 +32,14 @@ export function WelcomeModal() {
 
         <div className="welcome-modal-text">
           <p>
-            Want to meet new people in your area? Hangout makes it easy to join
-            casual, one-time meetups or create your own!
+            Want to hangout, study, or party with people but don&apos;t know
+            where to start? Hangout makes it easy to join casual, one-time
+            meetups or create your own!
           </p>
           <p>
-            Simply browse local hangouts that interest you, or start one
-            yourself. From coffee chats to sports games, connect with others who
-            share your interests – no long-term commitments, just genuine social
-            connections.
+            Simply look for local hangouts that interest you, or start one
+            yourself. From coffee chats, sports games to dining out at a new
+            local restaurant, spend time with people who share your interests.
           </p>
         </div>
 

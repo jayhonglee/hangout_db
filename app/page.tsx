@@ -28,7 +28,7 @@ export default function Home() {
           <p className="subtitle">Join local hangouts</p>
           <a
             className="action-button"
-            href="https://form.typeform.com/to/kmxbAUSY"
+            href="https://docs.google.com/spreadsheets/d/1t-cD4tySvjJnVOuGjyxQw2k03jumlYHquZf9ULivwuQ/edit?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
