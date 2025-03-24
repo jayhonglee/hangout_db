@@ -50,10 +50,10 @@ export default function IntroPage() {
           {currentStep === 1 && (
             <div className="intro-step fade-in">
               <div className="step-content">
-                <CategoryShowcase />
                 <p className="intro-description">
-                    Meet new people for the first time in a place you love, while doing what you enjoy
+                  Meet new people in a place you love, while doing what you enjoy
                 </p>
+                <CategoryShowcase />
               </div>
             </div>
           )}
@@ -61,13 +61,13 @@ export default function IntroPage() {
           {currentStep === 2 && (
             <div className="intro-step fade-in">
               <div className="step-content" style={{ width: '100%' }}>
+                <p className="intro-description">
+                  Join or create hangouts with people you&apos;d like to be friends
+                </p>
                 <div className="detail-container">
                   <HangoutDetail {...SAMPLE_HANGOUT} />
                   <PersonDetailCard />
                 </div>
-                <p className="intro-description">
-                  Join or create hangouts with people you&apos;d like to be friends with
-                </p>
               </div>
             </div>
           )}
@@ -75,10 +75,10 @@ export default function IntroPage() {
           {currentStep === 3 && (
             <div className="intro-step fade-in">
               <div className="step-content">
-                <GroupChatPreview />
                 <p className="intro-description">
                   Keep the conversation going before and after your hangouts in a group chat
                 </p>
+                <GroupChatPreview />
               </div>
             </div>
           )}

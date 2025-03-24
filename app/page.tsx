@@ -20,7 +20,7 @@ export default function Home() {
           className="welcome-button"
           onClick={() => router.push("/intro")}
         >
-          Yes
+          We make it easier
         </button>
       </div>
     </div>
