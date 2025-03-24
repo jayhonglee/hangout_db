@@ -12,7 +12,7 @@ export default function Home() {
           <h2 className="welcome-question">
             Ever felt that<br />
             socializing & making<br />
-            friends is so frustrating?
+            friends is so exhausting?
           </h2>
         </div>
 
