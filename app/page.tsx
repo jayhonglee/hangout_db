@@ -10,9 +10,11 @@ export default function Home() {
       <div className="welcome-content">
         <div className="welcome-header">
           <h2 className="welcome-question">
-            Ever felt that<br />
-            socializing & making<br />
-            friends is so exhausting?
+            Looking to meet
+            <br />
+            <span className="emphasis-primary">new people</span>
+            <br />
+            for just <span className="emphasis-secondary">one fun event</span>?
           </h2>
         </div>
 
@@ -20,7 +22,7 @@ export default function Home() {
           className="welcome-button"
           onClick={() => router.push("/intro")}
         >
-          We make it easier
+          Let’s Meet Up!
         </button>
       </div>
     </div>
