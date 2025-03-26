@@ -23,7 +23,7 @@ export default function HangoutsPage() {
         <section className="split-section create-section fade-in">
           <Plus className="icon" />
           <h2 className="title">Got Plans?</h2>
-          <p className="subtitle">I want to join hangouts, and I also have a great idea for one. I want to find local friends nearby who enjoy it!</p>
+          <p className="subtitle">I also have a great idea for one. I want to find local friends who enjoy it!</p>
           <a
             className="action-button"
             href="https://form.typeform.com/to/kmxbAUSY"

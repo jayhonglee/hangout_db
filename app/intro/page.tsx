@@ -8,7 +8,7 @@ import PersonDetailCard from "../components/PersonDetailCard";
 import GroupChatPreview from "../components/GroupChatPreview";
 
 const SAMPLE_HANGOUT = {
-  title: "Anyone wanna play badminton this saturday?",
+  title: "Anyone down to play badminton this saturday?",
   description: "Looking for some people to hit the courts with this Saturday! Doesn't matter if you're a pro or a beginner",
   location: "Burnaby, BC",
   image: "/images/badminton.png",
@@ -76,7 +76,7 @@ export default function IntroPage() {
             <div className="intro-step fade-in">
               <div className="step-content">
                 <p className="intro-description">
-                  Keep the conversation going before and after your hangouts in a group chat
+                  Keep the conversation going before and after your hangouts
                 </p>
                 <GroupChatPreview />
               </div>

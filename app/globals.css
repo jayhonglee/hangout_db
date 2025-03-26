@@ -90,7 +90,7 @@ body {
 }
 
 .subtitle {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   opacity: 0.9;
   margin-bottom: 2rem;
   text-align: center;
@@ -175,7 +175,7 @@ body {
   }
 
   .subtitle {
-    font-size: 1.25rem;
+    font-size: 1.125rem;
   }
 
   .action-button {
@@ -686,7 +686,7 @@ body {
 
 @media (max-width: 768px) {
   .intro-content {
-    padding: 2rem 0.5rem;
+    padding: 0rem 0.5rem;
   }
 
   .intro-step {
@@ -702,10 +702,6 @@ body {
 }
 
 @media (max-width: 380px) {
-  .intro-content {
-    padding: 1.5rem 1rem;
-  }
-
   .intro-step {
     min-height: auto;
   }
@@ -892,12 +888,22 @@ body {
   opacity: 0.6;
 }
 
+@media (max-width: 768px) {
+  .hangout-date {
+    font-size: 0.75rem;
+  }
+}
+
 .hangout-location {
   font-size: 0.875rem;
   color: rgba(0, 0, 0, 0.6);
 }
 
 @media (max-width: 768px) {
+  .hangout-location {
+    font-size: 0.75rem;
+  }
+
   .category-showcase {
     flex-direction: column;
     gap: 2rem;
@@ -948,16 +954,8 @@ body {
     padding-left: 0.875rem;
   }
 
-  .hangout-image {
-    width: 60px;
-  }
-
   .hangout-title {
-    font-size: 1.125rem;
-  }
-
-  .hangout-location {
-    font-size: 0.875rem;
+    font-size: 1.0rem;
   }
 
   .participant-portrait {
@@ -983,20 +981,13 @@ body {
 
 @media (max-width: 768px) {
   .intro-description {
-    font-size: 1.25rem;
+    font-size: 1.0rem;
     margin: 0 auto 2rem;
     padding: 0;
   }
 
   .intro-step:nth-child(2) .intro-description {
     margin: 0 auto 2rem;
-  }
-}
-
-@media (max-width: 380px) {
-  .intro-description {
-    font-size: 1.125rem;
-    margin: 0 auto 1.5rem;
   }
 }
 
@@ -1042,6 +1033,12 @@ body {
 
 .group-size svg {
   opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+  .group-size {
+    font-size: 0.75rem;
+  }
 }
 
 /* Hangout Detail Styles */
@@ -1092,6 +1089,12 @@ body {
   text-align: left;
 }
 
+@media (max-width: 768px) {
+  .detail-description {
+    font-size: 0.875rem;
+  }
+}
+
 .detail-info {
   display: flex;
   flex-direction: column;
@@ -1106,6 +1109,12 @@ body {
   font-size: 0.875rem;
 }
 
+@media (max-width: 768px) {
+  .detail-date {
+    font-size: 0.75rem;
+  }
+}
+
 .detail-location {
   color: rgba(0, 0, 0, 0.7);
   font-size: 0.875rem;
@@ -1113,6 +1122,12 @@ body {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .detail-location {
+    font-size: 0.75rem;
+  }
 }
 
 /* Person Detail Card Styles */
@@ -1249,28 +1264,12 @@ body {
   }
 
   .person-detail-card {
-    left: 9rem;
+    left: 5rem;
     width: calc(100% - 3rem);
-    bottom: -1rem;
+    bottom: -0.45rem;
     height: 180px;
   }
 }
-
-@media (max-width: 380px) {
-  .hangout-detail-content {
-    padding: 1rem;
-  }
-
-  .detail-title {
-    font-size: 1.125rem;
-  }
-
-  .person-detail-card {
-    padding: 0.875rem;
-    height: 220px;
-  }
-}
-
 /* Group Chat Preview Styles */
 .group-chat-preview {
   background: white;
