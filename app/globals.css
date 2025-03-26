@@ -98,6 +98,12 @@ body {
   color: var(--text-light);
 }
 
+@media (max-width: 767px) {
+  .subtitle {
+    font-size: 1.0rem;
+  }
+}
+
 .action-button {
   background: rgba(255, 255, 255, 0.15);
   border: 2px solid rgba(255, 255, 255, 0.8);
@@ -172,10 +178,6 @@ body {
 
   .title {
     font-size: 3rem;
-  }
-
-  .subtitle {
-    font-size: 1.125rem;
   }
 
   .action-button {
